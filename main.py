@@ -1,9 +1,9 @@
 import threading
 import socket
 
-target = "target-ip"
-port = "port"
-fake_ip = "fake-ip"
+target = input("Enter the target ip: ")
+port = int(input("Enter the target port: "))
+fake_ip = "Enter a fake-ip"
 
 request_execute = 0
 
